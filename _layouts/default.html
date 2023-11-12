@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+  {%- include header.html -%}
+
+  {% if page.img %}
+  <div class="content top">
+    <img src="{{ page.img }}">
+    <h1 class="text-center">{{ page.img-title }}</h1>
+  </div>
+  {% endif %}
+
+  {{ content }}
+
+  {%- include footer.html -%}
+  </body>
+
+</html>
