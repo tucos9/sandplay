@@ -138,6 +138,10 @@ button:hover {
   background-color: #5C835A;
 }
 
+.social-media-list .svg-icon {
+  color: #ffb075;
+}
+
 
 /* Header & Menu & Footer
  * ----------------------------------------------
@@ -211,6 +215,21 @@ button:hover {
 #main-menu-mobile #close-menu {
   font-style: normal !important;
 }
+
+.social-media-list {
+  list-style-type: none;
+}
+.social-media-list li {
+  display: inline-block;
+}
+.social-media-list .username {
+  display: none;
+}
+.social-media-list .svg-icon {
+  width: 36px;
+  height: 36px;
+}
+
 
 /* homepage
  * ----------------------------------------------
