@@ -24,27 +24,14 @@ url: "http://psihotherapiesandplay.ro" # the base hostname & protocol for your s
 # Build settings
 theme: minima
 
-collections_dir: services
-collections:
-    services:
-        output: true
-        permalink: /services/:path
-
-defaults:
-  - scope:
-      path:
-      type: "services"
-    values:
-      layout: "service"
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+#  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
