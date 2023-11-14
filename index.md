@@ -7,7 +7,7 @@ description: Psihoterapie Sand Play, Servicii Psihologice, Formare pentru Psholo
 
 <div class="container home text-center">
    <img src="/assets/img/banner-1.jpg">
-   <h1>Terapie Sand Play</h1>
+   <h1>Terapie Sandplay</h1>
 </div>
 
 <div class="container light-bg-1">
@@ -28,7 +28,7 @@ description: Psihoterapie Sand Play, Servicii Psihologice, Formare pentru Psholo
 Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului. Onorez și sunt recunoscatoare clienților mei alături de care am învățat și învăț mereu despre ce înseamnă a fi uman.
       </p>
 
-      <h4 class="text-right highlight mid">
+      <h4 class="text-right highlight blue">
       — Leni Burlacu,&nbsp;<br/> Psihoterapeut
       </h4>
 
@@ -41,7 +41,7 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
 <div class="container services light-bg-2">
 
   <div class="row">
-    <h1 class="text-center dark">Servicii psihologice</h1>
+    <h1 class="text-center">Servicii psihologice</h1>
 
     <p class="text-center">
  Caut să ofer un cadru în care să fie respectată individualitatea persoanei, pentru ca un potențial să poata lua formă și să poată să fie făcute vizibile cele mai profunde părți din tine.  Deoarece acesta este un proces și necesita delicatețe, am mereu grijă să asigur <i>spațiul liber si protejat</i> (Dora Kalff)
@@ -52,31 +52,31 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
     <div class="col-1-of-3">
       <a href="servicii.html#individual" target="_blank">
         <img src="/assets/img/therapy.jpg">
-        <h2 class="mid">Psihoterapie individuală</h2>
-        <p class="text-center dark">
+        <h2>Psihoterapie individuală</h2>
+        <p class="text-center">
         Descriere psihoterapie individuala
         </p>
-        <h5 class="mid text-center">200LEI/sedință</h5>
+        <h5 class="text-center orange">200 LEI<br/>sedința</h5>
       </a>
     </div>
     <div class="col-1-of-3">
       <a href="servicii.html#cuplu" target="_blank">
         <img src="/assets/img/couple-therapy.jpg">
-        <h2 class="mid">Psihoterapie<br/> de cuplu</h2>
-        <p class="text-center dark">
+        <h2>Psihoterapie<br/> de cuplu</h2>
+        <p class="text-center">
         Descriere psihoterapie de cuplu
         </p>
-        <h5 class="text-center mid">250LEI/sedință</h5>
+        <h5 class="text-center orange">250 LEI<br/>sedința</h5>
       </a>
     </div>
     <div class="col-1-of-3">
       <a href="servicii.html#reintegrare" target="_blank">
-        <img src="/assets/img/group-therapy.jpg">
-        <h2 class="mid">Reintegrare<br/> socială</h2>
-        <p class="text-center dark">
+        <img src="/assets/img/social.jpg">
+        <h2>Reintegrare<br/> socială</h2>
+        <p class="text-center">
         Descriere reintegrare sociala
         </p>
-        <h5 class="text-center mid">600LEI/4 sedințe</h5>
+        <h5 class="text-center orange">600 LEI<br/>4 sedințe</h5>
       </a>
     </div>
   </div>
@@ -87,39 +87,39 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
 
 </div>
 
-<div class="container services mid-bg">
+<div class="container services white-bg">
 
   <div class="row">
-    <h1 class="text-center dark">Metode practicate</h1>
+    <h1 class="text-center">Metode practicate</h1>
 
     <p class="text-center">
-    Formările mele principale în psihoterapie sunt hipnoza ericksoniană, psihotraumatologia și Sandplay Therapy.
+    Formările mele principale în psihoterapie sunt Hipnoza Ericksoniană, Psihotraumatologia și Sandplay Therapy.
     </p>
   </div>
 
   <div class="row text-center">
     <div class="col-1-of-3">
       <a href="servicii.html#terapie" target="_blank">
-        <i class="fa fa-eye light" aria-hidden="true"></i>
-        <h2 class="light">Psihotraumatologie</h2>
+        <i class="fa fa-eye blue" aria-hidden="true"></i>
+        <h2 class="dark">Psihotraumatologia</h2>
         <p class="text-center dark">
         O scurta definitie. Pe viitor, cand va fi mai mult text, click aici poate duce la o pagina care poate explica mai mult.
         </p>
       </a>
     </div>
     <div class="col-1-of-3">
-      <a href="servicii.html#cuplu" target="_blank">
-        <i class="fa fa-spinner light" aria-hidden="true"></i>
-        <h2 class="light">Hipnoza Ericksoniană</h2>
+      <a href="hipnoza.html" target="_blank">
+        <i class="fa fa-spinner blue" aria-hidden="true"></i>
+        <h2 class="dark">Hipnoza Ericksoniană</h2>
         <p class="text-center dark">
         O scurta definitie. Pe viitor, cand va fi mai mult text, click aici poate duce la o pagina care poate explica mai mult.
         </p>
       </a>
     </div>
     <div class="col-1-of-3">
-      <a href="servicii.html#grup" target="_blank">
-        <i class="fa fa-hourglass light" aria-hidden="true"></i>
-        <h2 class="light">Terapia Sandplay</h2>
+      <a href="sandplay.html" target="_blank">
+        <i class="fa fa-hourglass blue" aria-hidden="true"></i>
+        <h2 class="dark">Terapia Sandplay</h2>
         <p class="text-center dark">
         O scurta definitie. Pe viitor, cand va fi mai mult text, click aici poate duce la o pagina care poate explica mai mult.
         </p>
@@ -134,7 +134,7 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
 </div>
 
 
-<div class="container dark-bg-2">
+<div class="container mid-bg">
 
   <div class="row">
     <h1 class="text-center">Noutăți</h1>

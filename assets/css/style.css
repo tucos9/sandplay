@@ -22,6 +22,7 @@ h1, h1 a, h2, h2 a {
 h1 {
   font-size: 52px;
   font-style: italic;
+  opacity: 0.8;
 }
 h2 {
   font-size: 42px;
@@ -90,45 +91,46 @@ a.button-lg, input.button-lg {
 /* Colours
  * ----------------------------------------------
  */
-.black-bg {
-  background-color: #2f2725;
-}
-.dark-bg-1 {
-  background-color: #613a33;
-}
-.dark-bg-2 {
-  background-color: #994e37;
-}
-.mid-bg {
-  background-color: #c16039;
-}
-.light-bg-1 {
-  background-color: #feceaa;
-}
-.light-bg-2 {
-  background-color: #fab685;
-}
-.white-bg {
-  background-color: #eedad3;
-}
+.black-bg   { background-color: #2f2725; }
+.dark-bg-1  { background-color: #023f4a; }
+.dark-bg-2  { background-color: #01687b; }
+.mid-bg     { background-color: #c5a397; }
+.light-bg-1 { background-color: #f1e2df; }
+.light-bg-2 { background-color: #ead3cb; }
+.white-bg   { background-color: #f9efee; }
 
 .light-bg-1, .light-bg-2, .white-bg, .mid-bg-1, .mid-bg-2 {
   color: #2f2725;
 }
 .black-bg, .dark-bg-1, .dark-bg-2 {
-  color: #eedad3;
+  color: #ead3cb;
 }
-.dark  { color: #75330a !important; }
-.mid   { color: #d16839 !important; }
-.light { color: #ffb075 !important; }
 
-
-a {
+.light-bg-1 a, .light-bg-2 a, .white-bg a, .mid-bg-1 a, .mid-bg-2 a {
+  color: #2f2725;
+}
+.black-bg a, .dark-bg-1 a, .dark-bg-2 a {
   color: #d16839;
 }
-a:hover {
-  color: #f17c46;
+#main-menu a {
+  color: #d16839;
 }
+#main-menu a:hover {
+  color: #2f2725;
+  font-style: italic;
+}
+#footer a {
+  color: #ead3cb;
+}
+#footer a:hover {
+  color: #11788b;
+}
+
+.dark   { color: #023f4a !important; }
+.orange { color: #d16839 !important; }
+.blue   { color: #11788b !important; }
+.light  { color: #ead3cb !important; }
+
 
 a.button, input.button {
   background-color: #a7645e;
