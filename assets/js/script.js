@@ -22,14 +22,3 @@ var toggle_submenu = function(menuId) {
       menu.style.display = 'block';
   }
 };
-
-var fold = function(e, objId) {
-  var fold = document.getElementById(objId);
-  if (fold.style.display == 'block') {
-      fold.style.display = 'none';
-  }
-  else {
-      fold.style.display = 'block';
-  }
-};
-

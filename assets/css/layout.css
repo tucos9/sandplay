@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 
@@ -157,7 +158,6 @@ body {
 /* Images */
 img {
   max-width: 100%;
-  margin: 0;
 }
 
 /* Left-right-centered
@@ -166,11 +166,13 @@ img {
 .left {
   display: block;
   float: left;
+  padding-right: 20px;
 }
 
 .right {
   display: block;
   float: right;
+  padding-left: 20px;
 }
 
 .center {
