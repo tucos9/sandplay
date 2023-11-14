@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Leni Burlacu, Psihoterapie Sand Play
-description: Psihoterapie Sand Play, Servicii Psihologice, Formare pentru Pshologi
+title: Leni Burlacu - Psihoterapie Sandplay
+description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Pshologi
 ---
 
 
@@ -44,91 +44,77 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
     <h1 class="text-center">Servicii psihologice</h1>
 
     <p class="text-center">
- Caut să ofer un cadru în care să fie respectată individualitatea persoanei, pentru ca un potențial să poata lua formă și să poată să fie făcute vizibile cele mai profunde părți din tine.  Deoarece acesta este un proces și necesita delicatețe, am mereu grijă să asigur <i>spațiul liber si protejat</i> (Dora Kalff)
+ Caut să ofer un cadru în care să fie respectată individualitatea persoanei, pentru ca un potențial să poata lua formă și să poată să fie făcute vizibile cele mai profunde părți din tine.  Deoarece acesta este un proces și necesita delicatețe, am mereu grijă să asigur <i>spațiul liber si protejat</i> (Dora Kalff).
+
+ Terapia se poate face si online pentru 200 lei ședința.
     </p>
   </div>
 
   <div class="row text-center">
     <div class="col-1-of-3">
-      <a href="servicii.html#individual" target="_blank">
-        <img src="/assets/img/therapy.jpg">
+        <img src="/assets/img/terapie.jpg">
         <h2>Psihoterapie individuală</h2>
         <p class="text-center">
-        Descriere psihoterapie individuala
+        Ședința pentru copii, adolescenți sau adulți. Durează 1 oră.
         </p>
-        <h5 class="text-center orange">200 LEI<br/>sedința</h5>
-      </a>
+        <h5 class="text-center orange">150 LEI<br/>sedința</h5>
+        <!-- a class="button" href="servicii.html#individual" target="_blank">
+        Află mai multe
+        </a -->
     </div>
     <div class="col-1-of-3">
-      <a href="servicii.html#cuplu" target="_blank">
-        <img src="/assets/img/couple-therapy.jpg">
+        <img src="/assets/img/cuplu.jpg">
         <h2>Psihoterapie<br/> de cuplu</h2>
         <p class="text-center">
-        Descriere psihoterapie de cuplu
+        Ședința pentru doi durează 1 oră.
         </p>
         <h5 class="text-center orange">250 LEI<br/>sedința</h5>
-      </a>
+        <!-- a class="button" href="servicii.html#cuplu" target="_blank">
+        Află mai multe
+        </a -->
     </div>
     <div class="col-1-of-3">
-      <a href="servicii.html#reintegrare" target="_blank">
         <img src="/assets/img/social.jpg">
         <h2>Reintegrare<br/> socială</h2>
         <p class="text-center">
-        Descriere reintegrare sociala
+        Programul constă în 4 ședințe, una pe săptămână.
         </p>
         <h5 class="text-center orange">600 LEI<br/>4 sedințe</h5>
-      </a>
+        <!-- a class="button" href="servicii.html#reintegrare" target="_blank">
+        Află mai multe
+        </a -->
     </div>
   </div>
-  <div class="row">
-  <p>&nbsp;</p>
-  </div>
-
 
 </div>
 
 <div class="container services white-bg">
 
   <div class="row">
-    <h1 class="text-center">Metode practicate</h1>
-
     <p class="text-center">
     Formările mele principale în psihoterapie sunt Hipnoza Ericksoniană, Psihotraumatologia și Sandplay Therapy.
     </p>
   </div>
 
   <div class="row text-center">
-    <div class="col-1-of-3">
-      <a href="servicii.html#terapie" target="_blank">
-        <i class="fa fa-eye blue" aria-hidden="true"></i>
-        <h2 class="dark">Psihotraumatologia</h2>
-        <p class="text-center dark">
-        O scurta definitie. Pe viitor, cand va fi mai mult text, click aici poate duce la o pagina care poate explica mai mult.
+    <div class="col-1-of-2">
+        <img src="/assets/img/hipnoza.jpg" width="90%" class="text-center">
+        <h2 class="dark"><i>Hipnoza Ericksoniană</i></h2>
+        <p class="text-center dark" style="min-height: 150px">
+        Această formă de hipnoză se bazează pe utilizarea limbajului indirect, a sugestiilor subtile și a tehnicilor de comunicare non-verbală pentru a induce o transă hipnotică și a facilita schimbări terapeutice.
         </p>
-      </a>
+        <h5 class="text-center blue">200 LEI<br/>sedința</h5>
+        <a class="button" href="hipnoza.html">Află mai multe</a>
     </div>
-    <div class="col-1-of-3">
-      <a href="hipnoza.html" target="_blank">
-        <i class="fa fa-spinner blue" aria-hidden="true"></i>
-        <h2 class="dark">Hipnoza Ericksoniană</h2>
-        <p class="text-center dark">
-        O scurta definitie. Pe viitor, cand va fi mai mult text, click aici poate duce la o pagina care poate explica mai mult.
+    <div class="col-1-of-2">
+        <img src="/assets/img/sandplay.png" width="90%" class="text-center">
+        <h2 class="dark"><i>Terapia Sandplay</i></h2>
+        <p class="text-center dark" style="min-height: 150px;">
+        „Sandplay Therapy” este o cale către suflet. Caracterizarea sa prin nonintruzivitate, nondirectivitate și noninterpretativitate determină această abordare terapeutică să fie delicată și profundă în acelasi timp.
         </p>
-      </a>
+        <h5 class="text-center blue">200 LEI<br/>sedința</h5>
+        <a class="button" href="sandplay.html">Află mai multe</a>
     </div>
-    <div class="col-1-of-3">
-      <a href="sandplay.html" target="_blank">
-        <i class="fa fa-hourglass blue" aria-hidden="true"></i>
-        <h2 class="dark">Terapia Sandplay</h2>
-        <p class="text-center dark">
-        O scurta definitie. Pe viitor, cand va fi mai mult text, click aici poate duce la o pagina care poate explica mai mult.
-        </p>
-      </a>
-    </div>
-  </div>
-
-  <div class="row">
-  <p>&nbsp;</p>
   </div>
 
 </div>
