@@ -2,7 +2,8 @@
   <p>
 
   {% if page.ord-list %}
-
+     {% assign i = forloop.index0 | plus: 1 %}
+     {{ i }}.
   {% endif %}
   <i class="highlight blue">
     {{ item.text1 }}
