@@ -6,12 +6,22 @@
  */
 @import url('https://fonts.googleapis.com/css?family=Playfair:400,400i,800,800i|Bricolage+Grotesque:300,600');
 
+@media (min-width: 768px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media (max-width: 767px) {
+  html {
+    font-size: 18px;
+  }
+}
 
 p, ul, li, ol, td, span, footer p, footer li, footer a {
   font-family: 'Playfair';
-  font-weight: 400;
   letter-spacing: 0.1px;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 h1, h1 a, h2, h2 a {
@@ -21,12 +31,13 @@ h1, h1 a, h2, h2 a {
   opacity: 0.8;
 }
 h1 {
-  font-size: 52px;
+  font-size: 2rem;
   font-style: italic;
+  line-height: 2.1rem;
 }
 h2 {
-  font-size: 42px;
-  line-height: 40px;
+  font-size: 1.75rem;
+  line-height: 1.7rem;
   margin-bottom: 5px;
   font-style: normal;
 }
@@ -34,28 +45,24 @@ h2 {
 h3, h3 a {
   font-family: 'Playfair';
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 600;
-  margin-top: 2px;
-  font-size: 36px;
-  letter-spacing: 2px;
-}
-
-h3.lowercase {
-  text-transform: initial !important;
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 2px;
 }
 
 h4 {
+  margin-top: 2px;
   font-family: 'Playfair';
-  letter-spacing: 0px;
-  font-size: 32px;
-  line-height: 28px;
+  letter-spacing: -0.02rem;
+  font-size: 1.3rem;
+  line-height: 1.2rem;
 }
 
 h5, h5 a, h5 a:hover {
   font-family: 'Bricolage Grotesque';
   font-weight: 600;
-  font-size: 26px;
+  font-size: 1rem;
   font-style: normal;
 }
 
@@ -78,7 +85,7 @@ a.button, input.button {
   margin: 30px auto 70px auto;
   height: 52px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 1rem;
   text-decoration: none;
   font-family: 'Bricolage Grotesque';
   font-style: normal;
@@ -91,7 +98,13 @@ a.button-lg, input.button-lg {
 }
 
 footer p {
-  font-size: 20px;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  p {
+    text-align: justify;
+  }
 }
 
 
@@ -101,22 +114,20 @@ footer p {
 .black-bg   { background-color: #2f2725; }
 .dark-bg-1  { background-color: #023f4a; }
 .dark-bg-2  { background-color: #01687b; }
-.mid-bg     { background-color: #c5a397; }
-.light-bg-1 { background-color: #f1e2df; }
 .light-bg-2 { background-color: #ead3cb; }
+.light-bg-1 { background-color: #f1e2df; }
 .white-bg   { background-color: #f9efee; }
 
 a {
   color: #11788b;
 }
-.light-bg-1, .light-bg-2, .white-bg, .mid-bg-1, .mid-bg-2,
-.mid-bg-1 a, .mid-bg-2 a {
+.light-bg-1, .light-bg-2, .white-bg {
   color: #2f2725;
 }
 .black-bg, .dark-bg-1, .dark-bg-2 {
   color: #ead3cb;
 }
-.light-bg-1 a, .light-bg-2 a, .white-bg a {
+.light-bg a, .white-bg a {
   color: #11788b;
 }
 .black-bg a, .dark-bg-1 a, .dark-bg-2 a {
@@ -165,10 +176,6 @@ a.button:hover, input.button:hover {
 #header {
   display: block;
   height: 62px;
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 100;
 }
 .menu {
   margin: 0;
@@ -212,23 +219,23 @@ a.button:hover, input.button:hover {
 }
 
 #main-menu-sm {
-    position: absolute;
-    top: 20px;
-    text-align: right;
-    right: 16px;
-    cursor: pointer;
+  position: absolute;
+  top: 20px;
+  text-align: right;
+  right: 16px;
+  cursor: pointer;
 }
 
 #main-menu-mobile {
-    background-color: rgba(1,1,1,0.7);
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding-top: 100px;
-    z-index: 100;
+  background-color: rgba(1,1,1,0.7);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  z-index: 100;
 }
 #main-menu-mobile a {
   display: block;
@@ -256,13 +263,13 @@ a.button:hover, input.button:hover {
 }
 
 
-/* homepage
+/* image headers
  * ----------------------------------------------
  */
 .home h1 {
-  font-size: 90px;
+  font-size: 3rem;
   line-height: 100px;
-  letter-spacing: -4px;
+  letter-spacing: -0.25rem;
   display: block;
   font-family: 'Playfair';
   font-style: italic;
@@ -276,66 +283,53 @@ a.button:hover, input.button:hover {
 .home img {
   width: 90vw;
   max-width: 1400px;
-  margin: 100px auto;
+  margin: 50px auto 100px auto;
+}
+@media (min-width: 768px) {
+  .home h1 {
+    margin-top: calc(max(-90vw, -1400px)/2.25 - 160px);
+    margin-bottom: calc(min(90vw, 1400px)/2.25 - 120px);
+  }
+  .home img {
+    margin: 100px auto;
+  }
 }
 
-#logo h1 {
-  letter-spacing: -1px;
+.top {
+  height: 500px;
+  width: 80%;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin: auto;
+  position: relative;
+  margin-bottom: -3em;
+}
+.top h1 {
+  padding-top: 350px;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 0 0 80px #000;
 }
 
+
+/* Specific page styles
+ * ----------------------------------------------
+ */
 img.circle {
-    border-radius: 50%;
-    margin: 0 auto;
-    max-width: 300px;
-    max-height: 300px;
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-img.oval {
-    border-radius: 50%;
-    margin: 0 auto;
-    max-width: 390px;
-    max-height: 520px;
-    width: 100%;6
-    height: auto;
-    display: block;
-}
-img.small-circle {
-  width: 40%;
-  height: 40%;
+  border-radius: 50%;
+  margin: 0 auto;
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .services h2 {
   height: 68px;
 }
 .services .col-1-of-3 p {
-  height: 80px;
-}
-.services .fa {
-    font-size: 50px;
-    line-height: 130px;
-    width: 100%;
-    height: 100%;
-}
-
-
-/* Layout of pages
- * ----------------------------------------------
- */
-.top {
-  height: 450px;
-}
-.top img {
-  width: auto;
-  height: 450px;
-  max-width: 100%;
-}
-.top h1 {
-  margin-top: -200px;
-  font-size: 3em;
-  color: #fff;
-  text-shadow: 2px 2px 5px #000;
+  min-height: 200px;
 }
 
 
@@ -349,7 +343,6 @@ img.small-circle {
 #hypno h1 {
   font-family: 'Bricolage Grotesque';
   font-weight: 800;
-  font-size:120px;
   margin: 0 auto;
   text-align: center;
   font-style: normal;
@@ -359,13 +352,13 @@ img.small-circle {
   -webkit-text-fill-color: transparent;
 }
 #hypno button {
-    margin: 30px auto;
-    text-align: center;
-    background: none;
-    border: none;
-    font-size: 50px;
-    color: #fff;
-    opacity: .8;
+  margin: 30px auto;
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 50px;
+  color: #fff;
+  opacity: .8;
 }
 
 @keyframes breath {
@@ -374,6 +367,9 @@ img.small-circle {
   100% { transform: scale(1); }
 }
 .hypno {
+  position: fixed;
+  top: 0;
+  left: 0;
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -385,10 +381,16 @@ img.small-circle {
   .hypno {
     background-image: url("/assets/img/spiral-v.jpg");
   }
+  #hypno h1 {
+    font-size: 60px;
+  }
 }
 @media (min-width: 900px) {
   .hypno {
     background-image: url("/assets/img/spiral-h.jpg");
+  }
+  #hypno h1 {
+    font-size: 120px;
   }
 }
 .animate {

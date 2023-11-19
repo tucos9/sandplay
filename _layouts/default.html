@@ -7,8 +7,7 @@
   {%- include header.html -%}
 
   {% if page.img %}
-  <div class="content top">
-    <img src="{{ page.img }}">
+  <div class="content top text-center" style="background-image: url('{{ page.img }}')">
     <h1 class="text-center">{{ page.img-title }}</h1>
   </div>
   {% endif %}
