@@ -1,0 +1,23 @@
+{% for item in page.list %}
+  <p>
+
+  {% if page.ord-list %}
+
+  {% endif %}
+  <i class="highlight blue">
+    {{ item.text1 }}
+  </i>
+  {% if item.text2 %}
+      – {{ item.text2 }}
+  {% endif %}
+  </p>
+  {% if item.author %}
+    <p class="text-right">
+      – {{ item.author }}
+    </p>
+  {% endif %}
+
+{% endfor %}
+
+<p>&nbsp;</p>
+

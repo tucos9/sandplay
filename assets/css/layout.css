@@ -254,6 +254,26 @@ img {
   }
 }
 
+@media (min-width: 768px) {
+  .img-left, .img-right {
+    max-width: 300px;
+    width: 30%;
+  }
+  .img-left {
+    float: left;
+    padding-right: 20px;
+  }
+  .img-right {
+    float: right;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .img-left, .img-right {
+    width: 100%;
+  }
+}
+
 /* Hide
  * classes used to hide elements in general or at specific
  * screen sizes

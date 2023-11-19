@@ -2,13 +2,9 @@
 layout: default
 title: Despre Leni Burlacu - Psihoterapie Sandplay
 description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Pshologi
+img: /assets/img/despre-1.jpg
+img-title: Leni Burlacu
 ---
-
-<div class="container home text-center">
-  <img src="/assets/img/despre-1.jpg">
-  <h1>Leni Burlacu</h1>
-</div>
-
 
 <div class="container light-bg-1">
 
@@ -41,7 +37,8 @@ description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Psholog
 
       <img alt="Leni Burlacu, psihoterapeut" class="oval" src="assets/img/leni-burlacu-about.png">
 
-      <h4 class="text-center blue">Leni Burlacu<br/>Psihoterapeut</h4>
+      <h3 class="text-center blue">Leni Burlacu</h3>
+      <h4 class="text-center highlight orange">Psiholog DRD, Psihoterapeut</h4>
     </div>
   </div>
 
@@ -52,7 +49,7 @@ description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Psholog
   <div class="row">
     <h1 class="text-center">Psihoterapia copiilor</h1>
 
-    <img class='right' src="/assets/img/copii.jpeg" width="30%" style="max-width: 300px;">
+    <img class='img-right' src="/assets/img/copii.jpeg">
 
     <p class="text-justify">
     În psihoterapia copiilor, abordarea este prin joc, acesta fiind limbajul lor de dezvoltare psihică.
@@ -83,6 +80,10 @@ description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Psholog
 
       <p class="text-justify">
       Aici este un <a href="https://ast.wildapricot.org/Sys/PublicProfile/59247838/6018618" target="_blank">link</a> către pagina Asociației de Sandplay Therapy din SUA unde sunt înregistrată ca sandplay therapist.
+      </p>
+
+      <p class="text-justify">
+      Pentru a vedea mai multe detalii despre pregatirea si acreditarile mele, vezi CV-ul meu <a href="/assets/files/CV-Leni-Burlacu-2023.pdf" target="_blank">aici</a>.
       </p>
 
       <p>&nbsp;</p>
