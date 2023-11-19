@@ -288,8 +288,8 @@ a.button:hover, input.button:hover {
 @media (min-width: 768px) {
   .home h1 {
     font-size: 3.5rem;
-    margin-top: calc(max(-90vw, -1400px)/2.25 - 160px);
-    margin-bottom: calc(min(90vw, 1400px)/2.25 - 120px);
+    margin-top: calc(max(-90vw, -1400px)/2.25 - 180px);
+    margin-bottom: calc(min(90vw, 1400px)/2.25 - 100px);
   }
   .home img {
     margin: 100px auto;
@@ -309,7 +309,7 @@ a.button:hover, input.button:hover {
   padding-top: 350px;
   font-size: 2.5em;
   color: #fff;
-  text-shadow: 0 0 80px #000;
+  text-shadow: 0 0 30px #000;
 }
 
 
