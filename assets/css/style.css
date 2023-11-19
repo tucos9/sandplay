@@ -194,10 +194,6 @@ a.button:hover, input.button:hover {
   min-width: 90px;
   text-align: center;
 }
-#main-menu-lg .toggle:hover > .submenu {
-  display: block;
-  transition: opacity .4s ease-in-out,background-color .4s ease-in-out;
-}
 #main-menu-lg .toggle:after {
   content: '▾';
   color: #75330a;
@@ -209,7 +205,7 @@ a.button:hover, input.button:hover {
   background-color: #eedad3;
   box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
   border-top: 3px solid #994e37;
-  margin-top: 10px;
+  margin-top: 0;
   padding: 20px 52px 20px 5px;
   z-index: 100;
 }

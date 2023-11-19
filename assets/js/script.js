@@ -21,4 +21,11 @@ var toggle_submenu = function(menuId) {
   else {
       menu.style.display = 'block';
   }
-};
+  if (menuId == 'submenu_despre') {
+      var menuId2 = 'submenu_servicii';
+  }
+  else {
+      var menuId2 = 'submenu_despre';
+  }
+  document.getElementById(menuId2).style.display = 'none';
+ };
