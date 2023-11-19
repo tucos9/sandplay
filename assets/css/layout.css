@@ -51,12 +51,12 @@ body {
   vertical-align: top;
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 767px) {
   .col-1-of-2 {
     width: 100%;
   }
 }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 768px) {
   .col-1-of-2 {
     width: 49.5%;
   }

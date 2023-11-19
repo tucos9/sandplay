@@ -1,9 +1,8 @@
 ---
 layout: list
-title: Cod Etica Profesionala - Leni Burlacu - Psihoterapie Sandplay
 description: Psihoterapie Sand Play, Servicii Psihologice, Formare pentru Pshologi
-img: /assets/img/ethics-1.png
-img-title: Codul de etică profesională
+img: /assets/img/etica-banner.jpg
+title: Codul de etică profesională
 ord-list: 1
 list:
   - text1: Competență și responsabilitate profesională

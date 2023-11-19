@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Despre Leni Burlacu - Psihoterapie Sandplay
 description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Pshologi
-img: /assets/img/despre-1.jpg
-img-title: Leni Burlacu
+img: /assets/img/despre-banner.jpg
+title: Despre Leni Burlacu
 ---
 
 <div class="container light-bg-1">
@@ -35,7 +34,7 @@ img-title: Leni Burlacu
 
       <p>&nbsp;</p>
 
-      <img alt="Leni Burlacu, psihoterapeut" class="oval" src="assets/img/leni-burlacu-about.png">
+      <img alt="Leni Burlacu, psihoterapeut" class="circle" src="assets/img/leni-burlacu-about.png">
 
       <h3 class="text-center blue">Leni Burlacu</h3>
       <h4 class="text-center highlight orange">Psiholog DRD, Psihoterapeut</h4>

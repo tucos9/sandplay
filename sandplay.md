@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Terapia Sandplay - Psihoterapie Sandplay - Leni Burlacu
 description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Pshologi
 img: /assets/img/sandplay-banner.jpg
-img-title: Terapia Sandplay
+title: Terapia Sandplay
 list:
   - text1: Caracterul nonverbal
     text2: presupune că nu vei fi întrebat în legătură cu tot ceea ce exprimi liber in interiorul lădiței cu nisip dar poți să vorbești doar daca tu vrei.

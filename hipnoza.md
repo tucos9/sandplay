@@ -9,8 +9,8 @@ description: Psihoterapie Sand Play, Servicii Psihologice, Formare pentru Psholo
     <h1 class="text-center">Hipnoza Ericksoniană</h1>
 
     <div class="col-1-of-3">
-
-      <img src="/assets/img/flower.jpg" style="width: 130%; max-width: 130%; margin-left: -30%; opacity: .7">
+      <br/>
+      <img src="/assets/img/flower.jpg" style="opacity: .7">
     </div>
 
     <div class="col-2-of-3">
@@ -28,7 +28,7 @@ description: Psihoterapie Sand Play, Servicii Psihologice, Formare pentru Psholo
       </p>
     </div>
 
-    <a class="button" href="demo.html">încearcă meditația</a>
+    <a class="button button-lg" href="demo.html">încearcă meditația</a>
 
   </div>
 </div>

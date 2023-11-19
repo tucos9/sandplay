@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Leni Burlacu - Psihoterapie Sandplay
 description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Pshologi
+title: Acasă
 ---
 
 
 <div class="container home text-center">
-   <img src="/assets/img/banner-1.jpg">
+   <img src="/assets/img/banner.jpg">
    <h1>Terapie Sandplay</h1>
 </div>
 
@@ -17,20 +17,13 @@ description: Psihoterapie Sandplay, Servicii Psihologice, Formare pentru Psholog
       <p>&nbsp;</p>
 
       <p class="text-justify">
-      Lucrez de mai bine de 17 ani ca psihoterapeut și ceea ce am constatat de-a lungul experienței mele este că fiecare adult sau copil vrea să fie văzut și auzit, să se simta semnificativ. Atunci când cineva e vazut pentru ceea ce este el dincolo de povestea de suprafață ceea se întâmplă arată miraculos.
+      Bine ai venit! Ia un loc în acest spațiu pregătit pentru ascultare sacră, aici poți să fii tu, să vorbești și să aduci cele mai profunde gânduri și emoții fiind în siguranță. I-ați timpul de care ai nevoie. Te aștept cu drag!
       </p>
 
       <p class="text-justify">
- În realitate este capacitatea psihicului de a se reorganiza, a se vindeca pe sine. Așa suntem creati. Dar această capacitate de autovindecare  și restructurare se activează în condițiile potrivite.
+      <i class="highlight">Viziunea ta va deveni clară doar când te vei putea uita în propria inimă. Cine se uită în exterior visează, iar cine se uită în interiorul său se trezește. </i>
+      — Carl Gustav Jung
       </p>
-
-      <p class="text-justify">
-Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului. Onorez și sunt recunoscatoare clienților mei alături de care am învățat și învăț mereu despre ce înseamnă a fi uman.
-      </p>
-
-      <h4 class="text-right highlight blue">
-      — Leni Burlacu,&nbsp;<br/> Psihoterapeut
-      </h4>
 
     </div>
   </div>
@@ -55,34 +48,34 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
         <img src="/assets/img/terapie.jpg">
         <h2>Psihoterapie individuală</h2>
         <p class="text-center">
-        Ședința pentru copii, adolescenți sau adulți. Durează 1 oră.
+        În terapia individuală ne vom uita la nevoile tale de dezvoltare și cu ce te confrunți în momentul prezent.  Ședința pentru copii, adolescenți sau adulți durează o oră.
         </p>
         <h5 class="text-center orange">150 LEI<br/>sedința</h5>
-        <!-- a class="button" href="servicii.html#individual" target="_blank">
+        <a class="button" href="servicii.html#individual" target="_blank">
         Află mai multe
-        </a -->
+        </a>
     </div>
     <div class="col-1-of-3">
         <img src="/assets/img/cuplu.jpg">
         <h2>Psihoterapie<br/> de cuplu</h2>
         <p class="text-center">
-        Ședința pentru doi durează 1 oră.
+         Este o dovadă de iubire și angajament să iei ședințe de cuplu pentru a munci și a duce relația la un nivel superior. Ședința pentru doi durează o oră.
         </p>
         <h5 class="text-center orange">250 LEI<br/>sedința</h5>
-        <!-- a class="button" href="servicii.html#cuplu" target="_blank">
+        <a class="button" href="servicii.html#cuplu" target="_blank">
         Află mai multe
-        </a -->
+        </a>
     </div>
     <div class="col-1-of-3">
         <img src="/assets/img/social.jpg">
         <h2>Reintegrare<br/> socială</h2>
         <p class="text-center">
-        Programul constă în 4 ședințe, una pe săptămână.
+        Vom aborda în mai multe ședințe acele teme ce susțin procesul tău de reintegrare. Programul constă în minim patru ședințe, una pe săptămână.
         </p>
         <h5 class="text-center orange">600 LEI<br/>4 sedințe</h5>
-        <!-- a class="button" href="servicii.html#reintegrare" target="_blank">
+        <a class="button" href="servicii.html#reintegrare" target="_blank">
         Află mai multe
-        </a -->
+        </a>
     </div>
   </div>
 
@@ -100,7 +93,7 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
     <div class="col-1-of-2">
         <img src="/assets/img/hipnoza.jpg" width="90%" class="text-center">
         <h2 class="dark"><i>Hipnoza Ericksoniană</i></h2>
-        <p class="text-center dark" style="min-height: 150px">
+        <p class="text-center dark">
         Această formă de hipnoză se bazează pe utilizarea limbajului indirect, a sugestiilor subtile și a tehnicilor de comunicare non-verbală pentru a induce o transă hipnotică și a facilita schimbări terapeutice.
         </p>
         <h5 class="text-center blue">200 LEI<br/>sedința</h5>
@@ -109,7 +102,7 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
     <div class="col-1-of-2">
         <img src="/assets/img/sandplay.png" width="90%" class="text-center">
         <h2 class="dark"><i>Terapia Sandplay</i></h2>
-        <p class="text-center dark" style="min-height: 150px;">
+        <p class="text-center dark">
         „Sandplay Therapy” este o cale către suflet. Caracterizarea sa prin nonintruzivitate, nondirectivitate și noninterpretativitate determină această abordare terapeutică să fie delicată și profundă în acelasi timp.
         </p>
         <h5 class="text-center blue">200 LEI<br/>sedința</h5>
@@ -120,14 +113,18 @@ Aceasta este ceea ce ofer prin ceea ce sunt și m-am format de-a lungul timpului
 </div>
 
 
-<div class="container mid-bg">
+<div class="container light-bg-1">
 
   <div class="row">
     <h1 class="text-center">Noutăți</h1>
 
     <p class="text-center">
-    Aici se poate face trimitere la celelalte 2 aspecte ale site-ului: formare psihologica, si proiectul inner voice. De exemplu pe 2 coloane care trimit la cele 2 pagini. Important este ca datele cand incep cursurile sau proiectele sa fie exprimate clar aici.
+    În luna ianuarie 2024 va începe un grup de formare continuă în Sandtray Integrativ.
     </p>
+
+    <a class="button" href="formare.html" target="_blank">
+    Află mai multe
+    </a>
   </div>
 
   <div class="row">

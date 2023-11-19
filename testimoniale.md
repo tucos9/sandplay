@@ -1,8 +1,7 @@
 ---
 layout: list
-title: Testimoniale - Leni Burlacu - Psihoterapie Sandplay
-img-title: Testimoniale
-img: /assets/img/testimoniale.jpg
+title: Testimoniale
+img: /assets/img/testimoniale-banner.jpg
 list:
   - text1: Un proces terapeutic presupune, din punctul meu de vedere, un ghid și un sprijin în momentele foarte dificile când te confrunți cu lucruri care poate te depășesc teribil. Un terapeut ar fi firesc să fie autentic, profund, smerit și ghid în procesul de terapie. Și cred că oamenii de genul ăsta sunt rari. Doamna psiholog Burlacu Leni are toate calitățile astea. Și o recomand din inimă.
     author: Ciprian
