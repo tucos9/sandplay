@@ -29,3 +29,17 @@ var toggle_submenu = function(menuId) {
   }
   document.getElementById(menuId2).style.display = 'none';
  };
+
+ var untoggle_submenus = function(event) {
+    if (event.target.nodeName != "LI")
+    {
+        var menu = document.getElementById('submenu_despre');
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none';
+        }
+        var menu = document.getElementById('submenu_servicii');
+        if (menu.style.display == 'block') {
+            menu.style.display = 'none';
+        }
+    }
+ }
