@@ -256,8 +256,8 @@ img {
 
 @media (min-width: 768px) {
   .img-left, .img-right {
-    max-width: 300px;
-    width: 30%;
+    max-width: 400px;
+    width: 40%;
   }
   .img-left {
     float: left;
