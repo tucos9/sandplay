@@ -7,7 +7,7 @@ title: Acasă
 
 <div class="container home text-center">
    <img src="/assets/img/banner.jpg">
-   <h1>Terapie Sandplay</h1>
+   <h1>Psihoterapie</h1>
 </div>
 
 <div class="container light-bg-1">
